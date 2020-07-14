@@ -10,7 +10,7 @@
       "postgres",
       "pgadmin"
     ],
-    "initializeCommand": "git submodule init && git submodule update",
+    "initializeCommand": "git submodule update --init",
     "service": "workspace",
     "workspaceFolder": "/var/www",
     "shutdownAction": "stopCompose",
