@@ -1,0 +1,17 @@
+{
+    "name": "Laradock",
+    "dockerComposeFile": "../laradock/docker-compose.yml",
+    "remoteUser": "laradock",
+    "extensions": [
+      "onecentlin.laravel-extension-pack"
+    ],
+    "runServices": [
+      "nginx",
+      "postgres",
+      "pgadmin"
+    ],
+    "service": "workspace",
+    "workspaceFolder": "/var/www",
+    "shutdownAction": "stopCompose",
+    "postCreateCommand": "uname -a"
+  }
